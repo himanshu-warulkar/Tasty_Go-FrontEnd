@@ -6,7 +6,7 @@ const TopBar = () => {
    <section className="topBarSection">
         <div className="companyTitle">
             <Link to='/' className='link'>
-            <h2>QUICK</h2>
+            <h2>TastyGo</h2>
             </Link>
         </div>
         <div className="searchBar">

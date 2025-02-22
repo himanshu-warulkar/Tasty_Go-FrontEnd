@@ -4,7 +4,6 @@ import { Routes, Route } from 'react-router-dom'
 
 import './App.css'
 import ProductMenu from './suby/components/ProductMenu'
-
 const App = () => {
   return (
     <div>
@@ -12,7 +11,6 @@ const App = () => {
           <Route path='/' element = { <LandingPage />} />
           <Route path='/products/:firmId/:firmName' element = {<ProductMenu />} />
       </Routes>
-    
     </div>
   )
 }
